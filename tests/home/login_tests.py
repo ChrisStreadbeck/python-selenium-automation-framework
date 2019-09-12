@@ -26,4 +26,4 @@ class LoginTests(unittest.TestCase):
     def test_invalidLogin(self):
         self.lp.login("test@email.com", "abcabcabc")
         result = self.lp.verifyLoginFailed()
-        assert result == True
+        self.ts.markFinal("test_invalidLogin", result, "Invalid Login Verification")
