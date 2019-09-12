@@ -3,15 +3,14 @@ from login_page import LoginPage
 import unittest
 import pytest
 
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
-    baseURL = "https://letskodeit.teachable.com/"
-    driverLocation = "chromedriver.exe"
-    driver = webdriver.Chrome(driverLocation)
-    driver.maximize_window()
-    driver.implicitly_wait(3)
-    lp = LoginPage(driver)
 
-    @pytest.mark.order2
+    @pytest.fixture(autouse=True)
+    def classSetup(self, oneTimeSetUp):
+        self.lp = LoginPage(self.driver)
+
+    @pytest.mark.run(order=2)
     def test_validLogin(self):
         self.lp.clearFields()
         self.lp.login("test@email.com", "abcabc")
@@ -19,9 +18,8 @@ class LoginTests(unittest.TestCase):
         assert result == True
         self.driver.quit()
 
-    @pytest.mark.order1
+    @pytest.mark.run(order=1)
     def test_invalidLogin(self):
-        self.driver.get(self.baseURL)
         self.lp.login("test@email.com", "abcabcabc")
         result = self.lp.verifyLoginFailed()
         assert result == True
