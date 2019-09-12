@@ -51,4 +51,10 @@ class LoginPage(SeleniumDriver):
         emailField = self.getElement(locator=self._email_field)
         emailField.clear()
         passwordField = self.getElement(locator=self._password_field)
-        passwordField.clear()       
+        passwordField.clear()
+
+    def verifyTitle(self):
+        if "Let's Kode It" in self.getTitle():
+            return True
+        else:
+            return False
