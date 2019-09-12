@@ -211,3 +211,55 @@
 09/12/2019 03:32:33 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
 09/12/2019 03:32:33 PM - LoginPage - INFO: Element Found with locator: //*[@id="navbar"]//img[@class="gravatar"] locatorType: xpath
 09/12/2019 03:32:33 PM - LoginPage - INFO: Element Found
+09/12/2019 03:34:48 PM - LoginPage - INFO: Element Found with locator: Login locatorType: link
+09/12/2019 03:34:48 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+09/12/2019 03:34:51 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Sent data using element with locator: user_email locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Sent data using element with locator: user_password locatorType: id
+09/12/2019 03:34:51 PM - LoginPage - INFO: Element Found with locator: commit locatorType: name
+09/12/2019 03:34:52 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+09/12/2019 03:34:52 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),"Invalid email or password")] locatorType: xpath
+09/12/2019 03:34:52 PM - LoginPage - INFO: Element Found
+09/12/2019 03:34:52 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:34:52 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element not found with locator: Login locatorType: link
+09/12/2019 03:34:55 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Sent data using element with locator: user_email locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Sent data using element with locator: user_password locatorType: id
+09/12/2019 03:34:55 PM - LoginPage - INFO: Element Found with locator: commit locatorType: name
+09/12/2019 03:34:58 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+09/12/2019 03:34:58 PM - LoginPage - INFO: Element Found with locator: //*[@id="navbar"]//img[@class="gravatar"] locatorType: xpath
+09/12/2019 03:34:58 PM - LoginPage - INFO: Element Found
+09/12/2019 03:54:17 PM - LoginPage - INFO: Element Found with locator: Login locatorType: link
+09/12/2019 03:54:18 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+09/12/2019 03:54:19 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Sent data using element with locator: user_email locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Sent data using element with locator: user_password locatorType: id
+09/12/2019 03:54:20 PM - LoginPage - INFO: Element Found with locator: commit locatorType: name
+09/12/2019 03:54:21 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+09/12/2019 03:54:21 PM - LoginPage - INFO: Element Found with locator: //div[contains(text(),"Invalid email or password")] locatorType: xpath
+09/12/2019 03:54:21 PM - LoginPage - INFO: Element Found
+09/12/2019 03:54:21 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:54:21 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Element not found with locator: Login locatorType: link
+09/12/2019 03:54:24 PM - LoginPage - INFO: Cannot click on the element with locator: Login locatorType: link
+09/12/2019 03:54:24 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Sent data using element with locator: user_email locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 03:54:24 PM - LoginPage - INFO: Sent data using element with locator: user_password locatorType: id
+09/12/2019 03:54:25 PM - LoginPage - INFO: Element Found with locator: commit locatorType: name
+09/12/2019 03:54:27 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
+09/12/2019 03:54:27 PM - LoginPage - INFO: Element Found with locator: //*[@id="navbar"]//img[@class="gravatar"] locatorType: xpath
+09/12/2019 03:54:27 PM - LoginPage - INFO: Element Found

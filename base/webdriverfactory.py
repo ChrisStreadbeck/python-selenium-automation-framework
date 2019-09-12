@@ -43,13 +43,13 @@ class WebDriverFactory():
             # Set ie driver
             driver = webdriver.Ie()
         elif self.browser == "firefox":
+            # Set ff driver
             driver = webdriver.Firefox()
         elif self.browser == "chrome":
             # Set chrome driver
-            driverLocation = "chromedriver.exe"
-            driver = webdriver.Chrome(driverLocation)
+            driver = webdriver.Chrome("chromedriver.exe")
         else:
-            driver = webdriver.Firefox()
+            driver = webdriver.Chrome("chromedriver.exe")
         # Setting Driver Implicit Time out for An Element
         driver.implicitly_wait(3)
         # Maximize the window
