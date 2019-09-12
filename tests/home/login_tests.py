@@ -1,10 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import unittest
+import logging
 
+import custom_logger as cl
 from login_page import LoginPage
 
 class LoginTests(unittest.TestCase):
+
+    log = cl.customLogger(logging.DEBUG)
 
     def test_validLogin(self):
         baseUrl = "https://learn.letskodeit.com/p/practice"

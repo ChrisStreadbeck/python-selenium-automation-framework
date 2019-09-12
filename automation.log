@@ -1,8 +1,8 @@
-09/12/2019 02:02:23 PM - SeleniumDriver - INFO: Element Found with locator: Login locatorType: link
-09/12/2019 02:02:23 PM - SeleniumDriver - INFO: Clicked on element with locator: Login locatorType: link
-09/12/2019 02:02:26 PM - SeleniumDriver - INFO: Element Found with locator: user_email locatorType: id
-09/12/2019 02:02:26 PM - SeleniumDriver - INFO: Sent data using element with locator: user_email locatorType: id
-09/12/2019 02:02:26 PM - SeleniumDriver - INFO: Element Found with locator: user_password locatorType: id
-09/12/2019 02:02:26 PM - SeleniumDriver - INFO: Sent data using element with locator: user_password locatorType: id
-09/12/2019 02:02:26 PM - SeleniumDriver - INFO: Element Found with locator: commit locatorType: name
-09/12/2019 02:02:28 PM - SeleniumDriver - INFO: Clicked on element with locator: commit locatorType: name
+09/12/2019 02:11:15 PM - LoginPage - INFO: Element Found with locator: Login locatorType: link
+09/12/2019 02:11:15 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+09/12/2019 02:11:18 PM - LoginPage - INFO: Element Found with locator: user_email locatorType: id
+09/12/2019 02:11:18 PM - LoginPage - INFO: Sent data using element with locator: user_email locatorType: id
+09/12/2019 02:11:18 PM - LoginPage - INFO: Element Found with locator: user_password locatorType: id
+09/12/2019 02:11:18 PM - LoginPage - INFO: Sent data using element with locator: user_password locatorType: id
+09/12/2019 02:11:18 PM - LoginPage - INFO: Element Found with locator: commit locatorType: name
+09/12/2019 02:11:20 PM - LoginPage - INFO: Clicked on element with locator: commit locatorType: name
