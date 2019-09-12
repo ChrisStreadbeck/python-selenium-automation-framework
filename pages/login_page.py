@@ -1,10 +1,10 @@
 from selenium.webdriver.common.by import By
-from selenium_driver import SeleniumDriver
+from basepage import BasePage
 import logging
 
 import custom_logger as cl
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -53,8 +53,5 @@ class LoginPage(SeleniumDriver):
         passwordField = self.getElement(locator=self._password_field)
         passwordField.clear()
 
-    def verifyTitle(self):
-        if "Let's Kode It" in self.getTitle():
-            return True
-        else:
-            return False
+    def verifyLoginTitle(self):
+        return self.verifyPageTitle("Google") #False on purpose to test assert functionality

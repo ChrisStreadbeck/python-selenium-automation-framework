@@ -16,7 +16,7 @@ class LoginTests(unittest.TestCase):
     def test_validLogin(self):
         self.lp.clearFields()
         self.lp.login("test@email.com", "abcabc")
-        result1 = self.lp.verifyTitle()
+        result1 = self.lp.verifyLoginTitle()
         self.ts.mark(result1, "Title Verification")
         result2 = self.lp.verifyLoginSuccess()
         self.ts.markFinal("test_validLogin", result2, "Login Verification")
